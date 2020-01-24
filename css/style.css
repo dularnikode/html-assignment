@@ -1,0 +1,108 @@
+/*importing fonts from google fonts 
+font-family: 'Roboto', sans-serif;
+font-family: 'Noto Serif', serif;
+*/
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Roboto&display=swap'); 
+
+.heading{
+    font-family:'Noto Serif',serif;
+    color:#ECFFED;
+    font-size:72px;
+}
+
+.page{
+    font-family:'Roboto',sans-serif;
+    color:#75C23A;
+    font-size: 18px;
+
+}
+
+.header-wrapper{
+    position:fixed;
+    top:0px;
+    background-color:black;
+    width:100%;
+    height:px;
+}
+.logo-position{
+    display:block;
+    float:left;
+    margin:25px 40px;
+}
+
+ul{
+    display:block;
+    float:right;
+    list-style-type:none;
+    padding:15px 0px;
+}
+
+.buy-now{
+    background-color:#4AAB00;/*primary green*/
+    border:none;
+    /*margin:15px 10px;*/
+    padding:5px 15px;
+    color:white;
+    margin-right:40px;
+}
+
+li {
+    display:block;
+    float:right;
+    top:auto;
+    bottom: auto;
+    height:fit-content;
+    width:fit-content;
+
+}
+
+li img{
+    margin-left:20px;
+    margin-right: 10px;
+}
+
+li button{
+    margin-left:10px;
+
+}
+
+li a{
+    color:white;
+    text-decoration: none;
+    padding:10px 10px;
+    /*margin:0 10px;*/
+}
+
+.menuimg{
+
+}
+.poster{
+    display:block;
+    height:800px;
+    position: static;
+    top:300px;
+    background-image: url(../images/banner_image.png); 
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position:bottom;
+    background-size: cover;
+    margin-top:90px;
+}
+
+/*
+div{
+    border:1px solid red;
+}
+
+ul li {
+    border:1px solid yellow;
+
+}
+li a{
+    border:1px solid blue;
+}
+
+ul {
+    border:1px solid green;
+}
+*/
