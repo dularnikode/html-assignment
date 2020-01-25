@@ -8,10 +8,19 @@ body{
     padding:0px;
     margin:0px;
 }
-.com-heading{
+.common-heading{
     font-family:'Noto Serif',serif;
     color:#4AAB00;
     font-size:72px;
+}
+.common-button{
+    max-height:42px;
+    font-size:18px;
+    background-color:#4AAB00;/*primary green*/
+    border:none;
+    color:white;
+    border-radius:3px;
+    padding:10px 15px;
 }
 
 .page{
@@ -47,19 +56,15 @@ ul{
     background-color:#4AAB00;/*primary green*/
     border:none;
     /*margin:15px 10px;*/
-    padding:5px 15px;
+    padding:7px 20px;
     color:white;
     margin-right:40px;
+    margin-bottom: 10px;
 }
 
-li {
-    display:block;
-    float:right;
-    top:auto;
-    bottom: auto;
-    height:fit-content;
-    width:fit-content;
 
+li {
+    display:inline-block;
 }
 
 li img{
@@ -69,14 +74,19 @@ li img{
 
 li button{
     margin-left:10px;
+    max-height:42px;
+    font-size:18px;
+    background-color:#4AAB00;/*primary green*/
+    border:none;
+    color:white;
     border-radius:3px;
+    padding:10px 15px;
 }
 
 li a{
     color:white;
     text-decoration: none;
     padding:10px 10px;
-    /*margin:0 10px;*/
 }
 
 .poster{
@@ -105,39 +115,53 @@ li a{
 }
 
 .section-one-para{
-    color:#4E4E4E;
+    color:white;
+    font-family:'Roboto',sans-serif;
     max-width:50%;
     height:fit-content; 
     font-size: 16px; 
+
+
+}
+.section-one-more-details{
+    margin-top:20px;
 }
 
-.com-button{
-    max-height:42px;
-    font-size:18px;
-    background-color:#4AAB00;/*primary green*/
-    border:none;
-    color:white;
-    border-radius:3px;
-    padding:10px 15px;
-}
 
-.about-us{
+
+.section-about-us{
     display:block;
     position: static;
     background-color:rgb(170, 192, 194); 
     height:auto;
     width:100%;
 }
+
+.about-us-content{
+    max-width:40%;
+    float:left;
+    margin-left:10%;
+    height:auto;
+}
+
+.about-us-more-detail{
+    margin-top:20px;
+}
+
 /*
 ul li {
     border:1px solid yellow;
 
 }
-li a{
+li a,li button,li img{
     border:1px solid blue;
 }
 
+
 ul {
     border:1px solid green;
+}
+div {
+    border:1px solid red;
 }
 */
