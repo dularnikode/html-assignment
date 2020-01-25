@@ -11,7 +11,7 @@ body{
 .common-heading{
     font-family:'Noto Serif',serif;
     color:#4AAB00;
-    font-size:72px;
+    font-size:70px;
 }
 .common-button{
     max-height:42px;
@@ -29,6 +29,9 @@ body{
     font-size: 18px;
 
 }
+/**************************************************************************/
+
+/*header container*/
 
 .header-wrapper{
     position:fixed;
@@ -40,13 +43,11 @@ body{
 }
 
 .logo-position{
-    display:block;
     float:left;
     margin:25px 40px;
 }
 
 ul{
-    display:block;
     float:right;
     list-style-type:none;
     padding:15px 0px;
@@ -89,11 +90,14 @@ li a{
     padding:10px 10px;
 }
 
+/*********************************************************************************************/
+
+/*Section 1 Main*/ 
+
 .poster{
-    display:block;
     height:800px;
     position: static;
-    background-image: url('../images/banner_image.png'); 
+    background-image: url('../images/banner_image.png');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position:bottom;
@@ -102,8 +106,8 @@ li a{
 }
 
 .section-one{
-    max-width:fit-content;
-    max-height: fit-content;
+    max-width:70%;
+    max-height:50%;
     margin-left:10%;
     padding-top: 10%;
 
@@ -117,7 +121,7 @@ li a{
 .section-one-para{
     color:white;
     font-family:'Roboto',sans-serif;
-    max-width:50%;
+    max-width:70%;
     height:fit-content; 
     font-size: 16px; 
 
@@ -127,27 +131,118 @@ li a{
     margin-top:20px;
 }
 
+/********************************************************************************************/
 
+/*section 2 About Us*/
 
 .section-about-us{
-    display:block;
     position: static;
-    background-color:rgb(170, 192, 194); 
     height:auto;
-    width:100%;
+    background-color:rgb(167, 41, 41);
+    margin:0px;
+    padding:0px;
 }
 
 .about-us-content{
     max-width:40%;
-    float:left;
-    margin-left:10%;
+    float: left;
+    margin-left: 10%;
+    height: auto;
+    margin-bottom: 120px;
+}
+
+.about-us-para{
+font-size:24px;
+}
+
+.about-us-image{
+    float:right;
+    margin-right:10%;
+    max-width:35%;
     height:auto;
+    margin-top:15%;
+    box-shadow:15px 15px 15px rgb(148, 159, 161);
+
 }
 
 .about-us-more-detail{
     margin-top:20px;
 }
 
+
+
+/*******************************************************************************************/
+
+/*section Our Speciality*/
+
+.our-speciality-container{
+    width:100%;
+    height:auto;
+    position:static;
+    background-image:url('../images/speciality_bg.png'); 
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: bottom;
+    background-size:cover;
+    margin:0px;
+    padding:0px;
+    clear:both;
+
+}
+.our-spec-heading{
+    text-align: center;
+    width:100%;
+    padding-top:120px;
+}
+
+.our-spec-para{
+    margin:0 25%;
+    text-align:center;
+    max-width:50%;
+    height:auto;
+}
+
+
+
+.cards-and-content{
+    width:100%;
+    height:auto;
+}
+
+.card-container{
+    margin:10% 3.5% 0px 3.5%;
+    padding-bottom:120px;
+}
+
+.speciality-cards{
+    width: 264px;
+    height:300px;
+    display:inline-block;
+    margin-left:3px;
+    margin-right:3px;
+    border:2px solid white;
+    background-color: azure;
+}
+
+.spec-para{
+    text-align:center;
+    width:100%;
+
+}
+
+.image-card{
+    width:100%;
+}
+
+
+
+
+
+
+
+
+
+/*******************************************************************************************/
 /*
 ul li {
     border:1px solid yellow;
