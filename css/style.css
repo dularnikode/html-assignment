@@ -8,6 +8,10 @@ body{
     padding:0px;
     margin:0px;
 }
+
+section{
+    padding:120px 0px;
+}
 .common-heading{
     font-family:'Noto Serif',serif;
     color:#4AAB00;
@@ -22,17 +26,14 @@ body{
     border-radius:3px;
     padding:10px 15px;
 }
-
 .page{
     font-family:'Roboto',sans-serif;
     color:#4E4E4E;
     font-size: 18px;
-
 }
-/**************************************************************************/
+/*****************************************************************************/
 
 /*header container*/
-
 .header-wrapper{
     position:fixed;
     top:0px;
@@ -41,7 +42,6 @@ body{
     max-height:90px;
     display:block;
 }
-
 .logo-position{
     float:left;
     margin:25px 40px;
@@ -52,7 +52,6 @@ ul{
     list-style-type:none;
     padding:15px 0px;
 }
-
 .buy-now{
     background-color:#4AAB00;/*primary green*/
     border:none;
@@ -67,12 +66,10 @@ ul{
 li {
     display:inline-block;
 }
-
 li img{
     margin-left:20px;
     margin-right: 10px;
 }
-
 li button{
     margin-left:10px;
     max-height:42px;
@@ -83,19 +80,16 @@ li button{
     border-radius:3px;
     padding:10px 15px;
 }
-
 li a{
     color:white;
     text-decoration: none;
     padding:10px 10px;
 }
-
 /*********************************************************************************************/
 
 /*Section 1 Main*/ 
-
 .poster{
-    height:800px;
+    height:auto;
     position: static;
     background-image: url('../images/banner_image.png');
     background-repeat: no-repeat;
@@ -104,28 +98,22 @@ li a{
     background-size:cover;
     margin-top:90px;
 }
-
 .section-one{
     max-width:70%;
     max-height:50%;
     margin-left:10%;
-    padding-top: 10%;
-
 }
 .section-one-heading{
     font-family:'Noto Serif',serif;
     color:#ECFFED;
-    font-size:62px;
+    font-size:72px;
 }
-
 .section-one-para{
     color:white;
     font-family:'Roboto',sans-serif;
     max-width:70%;
     height:fit-content; 
     font-size: 16px; 
-
-
 }
 .section-one-more-details{
     margin-top:20px;
@@ -140,9 +128,7 @@ li a{
     height:auto;
     background-color:rgb(167, 41, 41);
     margin:0px;
-    padding:0px;
 }
-
 .about-us-content{
     max-width:40%;
     float: left;
@@ -150,11 +136,9 @@ li a{
     height: auto;
     margin-bottom: 120px;
 }
-
 .about-us-para{
 font-size:24px;
 }
-
 .about-us-image{
     float:right;
     margin-right:10%;
@@ -164,7 +148,6 @@ font-size:24px;
     box-shadow:15px 15px 15px rgb(148, 159, 161);
 
 }
-
 .about-us-more-detail{
     margin-top:20px;
 }
@@ -185,35 +168,29 @@ font-size:24px;
     background-position: bottom;
     background-size:cover;
     margin:0px;
-    padding:0px;
     clear:both;
 
 }
 .our-spec-heading{
+    margin:0px 0px 5% 0px;
     text-align: center;
     width:100%;
-    padding-top:120px;
 }
-
 .our-spec-para{
-    margin:0 25%;
+    margin:5% 25% ;
     text-align:center;
     max-width:50%;
     height:auto;
+    color:whitesmoke;
 }
-
-
-
 .cards-and-content{
     width:100%;
     height:auto;
 }
 
 .card-container{
-    margin:10% 3.5% 0px 3.5%;
-    padding-bottom:120px;
+    margin:0px 3.5% 0px 3.5%;
 }
-
 .speciality-cards{
     width: 264px;
     height:300px;
@@ -223,13 +200,10 @@ font-size:24px;
     border:2px solid white;
     background-color: azure;
 }
-
 .spec-para{
     text-align:center;
     width:100%;
-
 }
-
 .image-card{
     width:100%;
 }
