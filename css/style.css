@@ -379,13 +379,3 @@ padding-left: 3px;
 }
 /*******************************************************************************************
 */
-li{
-    border:
-}
-
-div,li,ul,footer,header{
-    border :2px solid red ;
-}
-section{
-    border:2px solid yellow;
-}
