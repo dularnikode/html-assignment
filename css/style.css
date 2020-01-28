@@ -133,29 +133,27 @@ li a{
     margin:0px;
 }
 .about-us-content{
-    max-width:40%;
+    max-width:30%;
     float: left;
     margin-left: 10%;
     height: auto;
     margin-bottom: 120px;
 }
 .about-us-para{
-font-size:24px;
+font-size:18px;
 }
 .about-us-image{
     float:right;
     margin-right:10%;
     max-width:35%;
     height:auto;
-    margin-top:15%;
+    margin-top:0%;
     box-shadow:15px 15px 15px rgb(148, 159, 161);
 
 }
 .about-us-more-detail{
     margin-top:20px;
 }
-
-
 
 /*******************************************************************************************/
 
@@ -238,12 +236,16 @@ font-size:24px;
 
 h2.heading{
     font-size:42px;
-    text-decoration:underline;
+    margin-bottom:15px;
 }
+.border-heading{
+    border-bottom:2px solid #4AAB00;
+}
+
 
 .our-menu-list-item{
     height:auto;
-    margin-bottom:15px;
+    margin-bottom:25px;
 }
 
 
@@ -312,15 +314,16 @@ h2.heading{
     font-size: 24px;
 }
 
-.input-table{
+.input-heading{
     color:green;
     font-size: 22px;
     float:left;
     display:block;
+    margin:10px 0px;
 
 }
 form{
-    margin:50px 10%;
+    margin:50px 13%;
 }
 form p{
     margin:10px 10px;
@@ -330,8 +333,11 @@ input{
     display:block;
     float:left;
     width:210px;
-    height:50px;
+    height:40px;
     font-size: 23px;
+}
+input[placeholder]{
+font-size: 20px;
 }
 .input-list{
     display:inline-block;
@@ -348,7 +354,7 @@ input{
 {
     height:124px;
     background-color:black;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 .a{
     width:50%;
@@ -374,15 +380,17 @@ input{
     float:right;
     margin-right:5%;
     font-size: 20px;
-    color:#4AAB00;
+    color:#75C23A;
 }
 .social-img{
     display:inline-block;
     border:1px solid white;
     padding:10px;
+    width: 10px;
+    height:10px;
 }
 
-.social-para{
+.social-heading{
     text-align: center;
 }
 
@@ -396,25 +404,3 @@ input{
 
 
 /*******************************************************************************************/
-/*
-ul li {
-    border:1px solid yellow;
-
-}
-li a,li button,li img{
-    border:1px solid blue;
-}
-
-
-ul {
-    border:1px solid green;
-}
-div {
-    border:1px solid red;
-}
-
-li{
-    border:1px solid black;
-}
-
-*/
