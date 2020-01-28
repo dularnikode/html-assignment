@@ -110,6 +110,7 @@ li a{
     font-family:'Noto Serif',serif;
     color:#ECFFED;
     font-size:72px;
+    margin:10px 10px;
 }
 .section-one-para{
     color:#ECFFED;
@@ -338,6 +339,7 @@ input{
 }
 input[placeholder]{
 font-size: 20px;
+padding-left: 3px;
 }
 .input-list{
     display:inline-block;
