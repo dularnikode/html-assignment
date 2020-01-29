@@ -261,6 +261,7 @@ h2.heading{
     color:#4AAB00;
     margin:0px;
     width:20%;
+    font-family: 'Noto Serif',serif;
     text-align:right;
     margin-bottom: 10px;
 
@@ -365,24 +366,31 @@ padding-left: 3px;
     font-family:'Noto Serif',serif;
 }
 .social-img{
-    width: 10px;
-    height:10px;
-    padding:10px;
+    font-size: 0px;
+    padding:5px;
 }
+.fb-img{
+    margin-left:3.5px;
+    margin-right: 3.5px;
+}
+.tweet-img{
+    margin-top:1px;
+    margin-bottom: 1px;
+}
+.g-plus-img{
+    margin:0.5px 0px;
+}
+
 .social-links{
     display:inline-block;
     border:1px solid white;
     margin:0px;
     padding:0px;
+    height:auto;
+    font-size:0px;
 }
 .social-heading{
     text-align: center;
     margin-bottom:10px;
 }
 /*******************************************************************************************
-/*
-
-div,li,ul,a,p{
-    border:1px solid red;
-}
-*/
