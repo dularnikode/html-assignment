@@ -92,6 +92,10 @@ li a{
     text-decoration: none;
     padding:10px 10px;
 }
+
+.nav-i-bar{
+    color:white;
+}
 /*********************************************************************************************/
 
 /*Section 1 Main*/
@@ -136,6 +140,10 @@ li a{
     overflow:auto;
     clear:both;
 }
+.span-bottom-border-about-us{
+    border-bottom:2px solid #4AAB00;
+}
+
 .about-us-content{
     max-width:30%;
     float: left;
@@ -225,6 +233,10 @@ font-size:18px;
 .our-menu-heading{
     text-align:center;
 }
+.hr-line{
+    width:100px;height:3px;background-color:#4AAB00;border:none;text-align:center;
+}
+
 /*****common list-classes*****/
 .our-menu-list{
     max-width: 40%;
