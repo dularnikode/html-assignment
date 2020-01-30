@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Foody | Making food taste better</title>
@@ -11,14 +12,16 @@
         <header class="header-wrapper"> 
             <img class="logo-position" src="images/logo.png" alt="Logo">
             <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li><span class="nav-i-bar">|</span> 
-                    <li><a href="#about">About</a></li><span class="nav-i-bar">|</span> 
-                    <li><a href="#menu">Menu</a></li><span class="nav-i-bar">|</span> 
-                    <li><a href="#services">Services</a></li><span class="nav-i-bar">|</span> 
-                    <li><a href="#content">Content</a></li>
-                    <li class="menu-img"><img src="images/menu_icon.png" alt="Menu"></li>
-                    <li><button class="buy-now">Buy Now</button></li> 
+                <ul class="navigtion">
+                    <li class="nav-list list-ankers"><a href="#home">Home</a></li><span class="nav-i-bar">|</span> 
+                    <li class="nav-list list-ankers"><a href="#about">About</a></li><span class="nav-i-bar">|</span> 
+                    <li class="nav-list list-ankers"><a href="#menu">Menu</a></li><span class="nav-i-bar">|</span> 
+                    <li class="nav-list list-ankers"><a href="#services">Services</a></li><span class="nav-i-bar">|</span> 
+                    <li class="nav-list list-ankers"><a href="#content">Content</a></li>
+                    <li class="nav-list list-image">
+                        <img src="images/menu_icon.png" alt="Menu">
+                    </li>
+                    <li class="nav-list list-buynow"><button class=" buy-now">Buy Now</button></li> 
                 </ul>
             </nav>
         </header>
@@ -35,11 +38,12 @@
                 <button class="common-button section-one-more-details">More Details</button>
             </div>
         </section>
+    
 
         <!--Section2 About Us-->
         <section class="section-about-us">
             <div class="about-us-content">
-                <h1 class="common-heading"><span class="span-bottom-border-about-us">Abou</span>t Us</h1>
+                <h1 class="common-heading about-us-heading"><span class="span-bottom-border-about-us">Abou</span>t Us</h1>
                 <p class="about-us-para">
                     Vivamus malesuada nisi at mi euismod rhoncus. Ut in nisl a nisi molestie vulputate.
                 </p>
@@ -54,36 +58,33 @@
                 </p>
                 <button class="common-button about-us-more-detail">More Details</button>
             </div>
-
-            <div>
                 <img class="about-us-image" src="images/about_img.png" alt="dish-image">
-            </div>
         </section>
 
         <!--section Our speciality-->
         <section class="our-speciality-wrapper">
             <div class="cards-and-content">
                 <h1 class="common-heading our-spec-heading">Our Specialities</h1>
-                <p class="page our-spec-para"> 
-                    Curabitur laoreet viverra dictum. Cras sit amet sagittis dolor.Cras sit 
-                    amet sagittis dolor. Curabitur volutpat lectus et rhoncus vulputate. 
+                <p class="our-spec-para"> 
+                    Curabitur laoreet viverra dictum. Cras sit amet sagittis dolor.Cras sit<br> 
+                    amet sagittis dolor. Curabitur volutpat. 
                 </p>
                 <div class="card-container">
-                    <div class="speciality-cards left-card-margin">
-                        <image class="image-card" src="images/dish_1.png" alt="dish-one">
-                        <p class="page spec-para">Italino-19.99$</p>
+                    <div class="speciality-cards">
+                        <image class="image-card left-card-image" src="images/dish_1.png" alt="dish-one">
+                        <p class="spec-para">Italino-19.99$</p>
                     </div>
                     <div class="speciality-cards">
                         <image class="image-card" src="images/dish_2.png" alt="dish-one">
-                        <p class="page spec-para">Lemanio-19.99$</p>
+                        <p class="spec-para">Lemanio-19.99$</p>
                     </div>
                     <div class="speciality-cards">
                         <image class="image-card" src="images/dish_3.png" alt="dish-one">
-                        <p class="page spec-para">Mangua-19.99$</p>
+                        <p class="spec-para">Mangua-19.99$</p>
                     </div>
                     <div class="speciality-cards">
                         <image class="image-card" src="images/dish_4.png" alt="dish-one">
-                        <p class="page spec-para">Biryani-19.99$</p>
+                        <p class="spec-para">Biryani-19.99$</p>
                     </div>
                 </div>
 
@@ -97,10 +98,11 @@
                     dolor. Integer ante magna<br></p>
                 <hr class="hr-line">
                     <!--list PIZZA-->
+                <div class="pizza-container">
+                    <h2 class="common-heading heading">
+                        <span class="border-heading">PIZZA</span>
+                    </h2>
                     <ul class="our-menu-list list-pizza">
-                        <h2 class="common-heading heading">
-                            <span class="border-heading">PIZZA</span>
-                        </h2>
                         <li class="our-menu-list-item">
                             <h3 class="list-heading">MEXICANA</h3>
                             <p class="our-menu-list-para">Donec scelerisque arcu tortor, non convallis sapien ........</p>
@@ -122,12 +124,13 @@
                             <p class="price">$14</p>
                         </li>
                     </ul>
-                
+                </div>
                     <!--list LEMO-->
+                <div class="lemo-container">
+                    <h2 class="common-heading heading">
+                        <span class="border-heading">LEMO</span>
+                    </h2>
                     <ul class="our-menu-list list-lemo">
-                        <h2 class="common-heading heading">
-                            <span class="border-heading">LEMO</span>
-                        </h2>
                         <li class="our-menu-list-item">
                             <h3 class="list-heading">MEXICANA</h3>
                             <p class="page our-menu-list-para">Donec scelerisque arcu tortor, non convallis sapien........</p>
@@ -149,16 +152,18 @@
                             <p class="price">$114</p>
                         </li>
                     </ul>
-
-                    <button class="common-button our-menu-more-details">More Deatils</button>
+                </div>
+                <div class="our-menu-more-details">
+                    <button class="common-button">More Deatils</button>
+                </div>
         </section>
 
         <!--Section5 Book Table-->
         <section class="book-table-wrapper">
             <h1 class="common-heading book-table-heading">Book a Table</h1>
             <p class="book-table-para">Integer pellentesque sapien eget nisi pharetra consequat Proin semper</p>
-            <form>
-                <p class="input-list">
+            <form class="form-book-table">
+                <p class="input-list input-left">
                     <label for="name" class="input-heading">Name</label><br>
                     <input type="text" name="name" placeholder="Name">
                 </p>
@@ -170,13 +175,14 @@
                     <label for="time" class="input-heading">Choose a time</label><br>
                     <input type="time" name="time">
                 </p>
-                <p class="input-list">
+                <p class="input-list input-right">
                     <label class="input-heading">Number a people</label><br>
                     <input type="text" name="people" placeholder="People">   
                 </p>
             </form>
-            <button class="common-button button-book-now">Book now</button>
-
+            <div class="button-book-now">
+            <button class="common-button ">Book now</button>
+            </div>
             <!--Footer-->
             <footer class="footer-wrapper">
                 <div class="a">
@@ -193,7 +199,9 @@
                     </div>
                 </div>
             </footer>
+            
         </section>
+        
 
     </body>
 </html>

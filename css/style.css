@@ -5,23 +5,23 @@ font-family: 'Noto Serif', serif;
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif|Roboto&display=swap'); 
 
 body{
-    padding:0px;
-    margin:0px;
     font-family:'Roboto',sans-serif;
     color:#4E4E4E;
-    font-size: 18px;
 }
 
 section{
-    padding:120px 0px;
+    padding:120px 160px;
 }
 
 .common-heading{
     font-family:'Noto Serif',serif;
     color:#4AAB00;
     font-size:70px;
-    margin:0px;
-    padding:0px;
+    margin:30px 0px;
+}
+p{
+    line-height: 1.5;
+    margin:10px 0;
 }
 
 .common-button{
@@ -31,8 +31,9 @@ section{
     border:none;
     color:white;
     border-radius:3px;
-    padding:10px 15px;
+    padding:10px 20px;
     cursor: pointer;
+    margin:20px 0px;
 }
 
 /*****************************************************************************/
@@ -51,7 +52,7 @@ section{
     float:left;
     margin:25px 40px;
 }
-ul{
+ul.navigtion{
     float:right;
     list-style-type:none;
     padding:20px 0px;
@@ -65,12 +66,31 @@ ul{
     margin-right:40px;
     margin-bottom: 0px;
     cursor: pointer;
+    font-family: 'Roboto',sans-serif;
 }
 
-li {
-display:inline-block;
+.menu-image{
+    width:auto;
+    height:42;
+}
+
+.list-ankers{
+    padding-top:19px;
+}
+
+.list-image{
+    padding-top:16px;
+}
+
+.list-buynow{
+    padding-top:3px;
+}
+
+li.nav-list{
+display:block;
 margin-left:5px;
 margin-right:5px;
+float:left;
 }
 
 li img{
@@ -91,17 +111,19 @@ li a{
     color:white;
     text-decoration: none;
     padding:10px 10px;
+    font-family: 'Robot',sans-serif;
 }
 
 .nav-i-bar{
     color:white;
+    float:left;
+    padding-top:18px;
 }
 /*********************************************************************************************/
 
 /*Section 1 Main*/
 .section-one-wrapper{
     height:auto;
-    position: static;
     background-image: url('../images/banner_image.png');
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -110,24 +132,22 @@ li a{
     margin-top:90px;
 }
 .section-one-content{
-    width:70%;
-    height:50%;
-    margin-left:10%;
+    height:auto;
+    padding:50px 0px;
 }
 .section-one-heading{
     font-family:'Noto Serif',serif;
     color:#ECFFED;
     font-size:72px;
+    
 }
 .section-one-para{
     color:#ECFFED;
     font-family:'Roboto',sans-serif;
     width:70%;
     height:auto; 
-    font-size: 16px; 
-}
-.section-one-more-details{
-    margin-top:20px;
+    font-size: 16px;
+    padding:50px 0px;
 }
 /********************************************************************************************/
 /*section 2 About Us*/
@@ -138,28 +158,35 @@ li a{
     background-color:whitesmoke;
     margin:0px;
     overflow:auto;
-    clear:both;
 }
+/*
 .span-bottom-border-about-us{
-    border-bottom:2px solid #4AAB00;
+    border-bottom:;
 }
 
+.span-bottom-border-about-us::after{
+    border-bottom:2px solid #4AAB00;
+}
+*/
 .about-us-content{
-    max-width:30%;
     float: left;
-    margin-left: 10%;
     height: auto;
+    width:37%;
 }
+.about-us-heading{
+    margin-top:0px;
+}
+
 .about-us-para{
-font-size:18px;
+font-size:24px;
 }
+
 .about-us-image{
-    float:right;
-    margin-right:10%;
-    max-width:35%;
     height:auto;
-    margin-top:0%;
-    box-shadow:15px 15px 15px rgba(225, 236, 238, 0.8);
+    box-shadow:15px 15px 15px rgb(108, 112, 116);
+    float:right;
+    width:504px;
+    height:520px;
 }
 .about-us-more-detail{
     margin-top:20px;
@@ -168,7 +195,6 @@ font-size:18px;
 /*section Our Speciality*/
 
 .our-speciality-wrapper{
-    width:100%;
     height:auto;
     position:static;
     background-image:url('../images/speciality_bg.png'); 
@@ -176,139 +202,141 @@ font-size:18px;
     background-attachment: scroll;
     background-position: center;
     background-size:cover;
-    margin:0px;
-    clear:both;
+    font-family:'Noto Serif',serif;
+    font-size: 24px;
+    padding:120px 95px;
 
 }
 .our-spec-heading{
-    margin:0px 0px 5% 0px;
     text-align: center;
-    width:100%;
+    margin-top:0px;
 }
 .our-spec-para{
-    margin:5% 25% ;
     text-align:center;
-    width:50%;
     height:auto;
     color:#ECFFED;
+    font-family: 'Roboto',sans-serif;
 }
 .cards-and-content{
-    width:100%;
     height:auto;
 }
 .card-container{
-    padding-left:90px;
+    text-align:center;
+    margin-top:100px;
 }
 
 .speciality-cards{
     width: 264px;
     height:300px;
     display:inline-block;
-    margin-left:3px;
-    margin-right:3px;
-    border:2px solid white;
+    margin:3px 3px;
     background-color: azure;
+    text-align: center;
+}
+.left-card-image{
+    width:254px;
+    height:220px;
 }
 .spec-para{
     text-align:center;
-    width:100%;
+    margin-top:20px;
 }
 .image-card{
-    width:100%;
+    margin-top: 5px;
+    
 }
 /***********************************************************************************/
 /* Section 4 our menu*/
 
 .our-menu-wrapper{
-    width:100%;
     height:auto;
-    position:static;
     background-image:url('../images/menu_bg.png'); 
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center;
     background-size:cover;
-    margin:0px;
 }
 .our-menu-heading{
     text-align:center;
+    margin-top: 0px;
 }
 .hr-line{
     width:100px;height:3px;background-color:#4AAB00;border:none;text-align:center;
 }
 
+.pizza-container{
+    float:left;
+    width:46%;
+    text-align:left;
+}
+
+.lemo-container{
+    float:right;
+    width:auto;
+    text-align:left;
+}
+
 /*****common list-classes*****/
 .our-menu-list{
-    max-width: 40%;
     height:auto;
 }
 h2.heading{
     font-size:42px;
-    margin-bottom:15px;
+    width:fit-content;
 }
 .border-heading{
     border-bottom:2px solid #4AAB00;
 }
 .our-menu-list-item{
+    display:block;
     height:auto;
-    margin-bottom:25px;
+    width:auto;
+    margin-bottom:50px;
+    overflow:auto;
 }
 .list-heading{
     color:#75C23A;
     font-size: 32px;
-    margin:0px;
     font-family: 'Noto Serif',serif;
 }
 .our-menu-list-para{
+    width:350px;
     font-size:24px;
-    width:75%;
-    height:100%;
-    display:inline-block;
-    margin:0px;
+    display:block;
     font-family: 'Noto Serif',serif;
+    float:left;
 }
 .price{
-    display:inline-block;
+    display:block;
+    width:90px;
+    height:72px;
     font-size:40px;
     color:#4AAB00;
-    margin:0px;
-    width:20%;
     font-family: 'Noto Serif',serif;
     text-align:right;
-    margin-bottom: 10px;
-
+    float:left;
 }
 /****/
-.list-pizza{
-    float:left;
-    margin-left: 8%;
-}
-.list-lemo{
-    float:right;
-    margin-right:5%;
-}
 
 .our-menu-more-details{
-    margin-left:45%;
+    text-align:center;
+    clear:both;
 }
 /********************************************************************************************/
 /*section5 Book a Table*/
 
 .book-table-wrapper{
-    width:100%;
     height:auto;
-    position:static;
     background-image:url('../images/footer_bg.png'); 
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center;
     background-size:cover;
-    margin:0px;
-    padding-bottom:0px;
+    padding:120px 0px 0px 0px;
 }
 .book-table-heading{
     text-align:center;
-    font-size: 65px;
+    font-size: 65px
 }
 .book-table-para{
     color:#ECFFED;
@@ -322,17 +350,22 @@ h2.heading{
     margin:10px 0px;
     font-family:'Noto Serif',serif;
 }
-form{
-    margin:50px 13%;
-}
-form p{
-    margin:10px 10px;
+.form-book-table{
+    text-align: center;
+    padding:0 160px;
+    margin:50px 0px;
 }
 input{
     float:left;
-    width:210px;
+    width:212px;
     height:40px;
     font-size: 23px;
+}
+p.input-left{
+    margin-left:0px;
+}
+p.input-right{
+    margin-right: 0px;
 }
 input[placeholder]{
 font-size: 20px;
@@ -340,19 +373,19 @@ padding-left: 3px;
 }
 .input-list{
     display:inline-block;
-    height:100px;
+    margin:0px 15px;
 }
 .button-book-now{
-    padding:10px 45px;
-    margin:10px 43% 100px 43%;
+    text-align: center;
+    margin-bottom:120px;
+    height:auto;
 
 }
 /*******************************/
 .footer-wrapper
 {
     height:124px;
-    background-color:black;
-    opacity: 0.8;
+    background-color:rgba(0, 0, 0, 0.8);
 }
 .a{
     width:50%;
@@ -362,7 +395,6 @@ padding-left: 3px;
 .footer-logo{
     margin-left:5%;
     margin-top:30px;
-
 }
 .foot-para{
     color:#ECFFED;
@@ -372,15 +404,16 @@ padding-left: 3px;
 }
 .footer-social-media{
     float:right;
+    margin-top:25px;
     margin-right:5%;
-    font-size: 20px;
-    color:#75C23A;
-    font-family:'Noto Serif',serif;
+    height:auto;
 }
+
 .social-img{
     font-size: 0px;
-    padding:5px;
+    padding:8px;
 }
+/*
 .fb-img{
     margin-left:3.5px;
     margin-right: 3.5px;
@@ -391,18 +424,24 @@ padding-left: 3px;
 }
 .g-plus-img{
     margin:0.5px 0px;
-}
+}*/
 
 .social-links{
-    display:inline-block;
+    display:block;
     border:1px solid white;
-    margin:0px;
+    text-align:center;
+    margin:0px 3px;
     padding:0px;
-    height:auto;
+    height:27px;
+    width:27px;
     font-size:0px;
+    float:left;
 }
 .social-heading{
     text-align: center;
     margin-bottom:10px;
+    font-size: 20px;
+    color:#75C23A;
+    font-family:'Noto Serif',serif;
 }
 /*******************************************************************************************
