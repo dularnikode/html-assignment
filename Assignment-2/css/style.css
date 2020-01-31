@@ -1,0 +1,185 @@
+
+/*importing google font poppins 
+use: font-family: 'Poppins', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins',sans-serif;
+    color:#7A839E;
+}
+p{
+    line-height: 1.5;
+}
+section{
+    padding:120px 50px;
+}
+
+
+
+.common-container{
+    width: 1280px;
+    margin:0px auto;
+    height:auto;
+}
+.com-heading{
+    font-size: 42px;
+    color:#181818;
+}
+
+
+
+/*********Header*******************/
+header{
+    width:100%;
+    height:120px;
+    position:fixed;
+    background-color:white;
+    padding:22px 50px;
+    z-index: 1;
+}
+
+.list-button-container{
+    float:right;
+    padding:10px 0px;
+}
+
+.nav-anchor{
+    color:#7A839E;
+    text-decoration: none;
+}
+.nav-anchor:hover{
+    border-bottom:2px solid #F92524;
+}
+
+
+nav{
+    display: inline-block;
+    font-size: 18px;
+    margin:19px 0px;
+}
+ul{
+
+}
+li{
+    display: inline-block;
+    margin:0px 5px;
+    padding-bottom:5px;
+}
+.button-contact-us{
+    display:block;
+    height:58px;
+    font-size: 20px;
+    background-color: #F92524;
+    border:none;
+    border-radius:5px;
+    color:white;
+    padding:10px 30px;
+    float:right;
+    margin-left:35px;
+}
+
+
+/***********Section1************/
+
+.section-banner{
+    height:660px;
+    width:100%;
+    position: relative;
+    top:120px;
+    background-image:url('../images/banner_bg.png');
+    background-position: bottom;
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:0px 50px;
+}
+.banner-container{
+    height:660px;
+    position: relative;
+    overflow: hidden;
+}
+
+.div-left{
+    height: 660px;
+    display:block;
+    width:50%;
+    float:left;
+    padding:165px 0px;
+}
+
+.image-girl{
+    position:absolute;
+    top:40px;
+
+}
+.image-boy{  
+    position: absolute;
+    top: 220px;
+    left: 860px;
+}
+
+.heading-one{
+    color:#7A839E;
+    margin:20px 0px;
+}
+.heading-two{
+    color:white;
+    font-weight: bold;
+}
+
+.banner-para{
+    margin:25px 0px;
+}
+
+.join-today-button{
+    background-color: rgb(247, 71, 71);
+    border:none;
+    height:58px;
+    font-size: 20px;
+    border-radius: 5px;
+    border:1px solid green;
+    padding:10px 80px 10px 30px;
+    margin-top:10px;
+}
+
+.join-today-button::after{
+    content:url('../images/arrow_right.png');
+    display:block;
+    position: absolute;
+    left:159px;
+    bottom:180px;
+    box-sizing: border-box;
+    padding:18px 10px;
+    border:1px solid green;
+    width:50px;
+    height:58px;
+    background-color: rgb(255, 0, 0);
+    border-bottom-right-radius:5px;
+    border-top-right-radius:5px; 
+}
+
+
+/**************Section 2********************/
+
+.section-our-story{
+    background-color:wheat;
+    height:auto;
+    position:relative;
+    top:120px;
+}
+.image-container{
+    width:424;
+    height: 587;
+    background-image: url('../images/advanced_bg.png');
+    background-position: bottom;
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+}
+
