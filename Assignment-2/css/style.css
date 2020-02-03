@@ -295,7 +295,7 @@ float:right;
 
 .filter-anchor:hover{
     color:red;
-    border-bottom:5px solid red;
+    border-bottom:3px solid red;
 }
 
 .classes-para{
@@ -316,20 +316,27 @@ float:right;
 
 
 .card-container{
-    width:100%;
-    height:500px;
-   overflow:auto;
+    width:1280px;
+    height:480px;
    margin-top:50px;
+   overflow:hidden;
 }
 
 .classes-card{
     width:305px;
     height:470px;
-    border:1px solid red;
     display:block;
     float:left;
     border-top-left-radius:40px;
     border-bottom-right-radius: 40px;
+    position: relative;
+    margin:5px 3%;
+}
+.card-one{
+    margin-left:0px;
+}
+.card-four{
+    margin-right:0px;
 }
 
 .card-image{
@@ -337,3 +344,283 @@ float:right;
     border-bottom-right-radius: 40px;
 }
 
+.classes-discription{
+    width:305px;
+    height:100px;
+    position:absolute;
+    bottom:0px;
+    color:white;
+    background-color: rgb(238, 30, 30);
+    padding:20px;
+    border-bottom-right-radius:40px;
+    transition-property:bottom;
+    transition-delay:0s;
+    transition-duration:1s;
+    transition-timing-function:ease;
+}
+
+.classes-card:hover .classes-discription{
+    bottom:40px;
+    border-bottom-right-radius:0px;
+}
+
+.classes-card:hover {
+    box-shadow:0px 0px 8px red;
+}
+
+.card-heading{
+    font-size: 25px;
+}
+
+.card-para{
+    font-size: 18px;
+}
+
+
+
+
+/*******************Section-4 Our Pricing****************************/
+
+
+.section-our-pricing{
+    background-color:white;
+    height:auto;
+    position:relative;
+    top:120px;
+    clear:both;
+}
+
+.price-head-para{
+    text-align: center;
+}
+.price-card-container{
+    width:100%;
+    height:auto;
+
+}
+
+.price-card{
+    width:380px;
+    height:732px;
+    display: inline-block;
+    text-align: center;
+    margin:3px 10px;
+    padding:100px 25px;
+    border:1px solid grey;
+    border-radius: 10px;
+}
+
+
+.price-heading{
+    font-size: 25px;
+    color:black;
+    font-weight: bold;
+    margin:35px 0px;
+}
+
+.price-card-para{
+    margin:20px 0px;
+}
+.get-started-button{
+    height:58px;
+    padding:0px 45px;
+    border:1px solid grey;
+    color:grey;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top:73px;
+}
+
+
+.price-card:hover .get-started-button{
+    color:white;
+    background-color: #F92524;
+    border:none;
+}
+
+.price-card:hover .dumbell-img-one{
+    background-image:url('../images/dumbbells_2.png');
+}
+
+
+/****************Section 5 Contact Us **************************/
+
+/* - input height - 70px
+- input font-size - 18px
+- button height - 80px
+- button font-size - 25px
+- border color #151D41 */
+
+
+.section-contact-us{
+    background-color:white;
+    height:auto;
+    position:relative;
+    top:120px;
+}
+
+.contact-us-heading{
+    text-align: center;
+}
+form{
+    margin:100px;
+}
+
+.form-input{
+    height:70px;
+    font-size: 18px;
+    border-radius: 5px;
+    border:1px solid #151D41 ;
+    padding-left:10px;
+    width:45%;
+    margin:20px 0px;
+}
+
+.input-name{
+    float:left;
+}
+.input-email{
+    float:right;
+}
+.input-phone{
+    float:left;
+}
+
+.input-budget{
+    float:right;
+    background-color: white;
+    color:#7A839E;
+}
+
+.input-message{
+    width: 100%;
+    height:180px;
+    padding:15px;
+}
+
+
+.button-send-message{
+    height:80px;
+    font-size: 25px;
+    border:none;
+    background-color:#F92524;
+    color:white;
+    border-radius:8px;
+    padding:0px 50px ;
+    margin:0px auto;
+}
+.button-container{
+    text-align: center;
+}
+
+/**********************section-6 Review**************************/
+/* - card size - 560px * 382px
+- circle size - 106px
+- description font-size - 16px
+- author name font-size - 20px
+- city name font-size - 20px
+- card should have box-shadow */
+.section-review{
+    background-color:white;
+    height:auto;
+    position:relative;
+    top:120px;
+}
+
+.review-wrapper{
+    overflow:auto;
+}
+
+
+
+.review-card-container{
+    position: relative;
+    
+}
+
+.review-card{
+    width: 560px;
+    height:382px;
+    margin:100px 10px 10px 10px;
+    box-shadow: 0px 0px 8px grey;
+    padding:100px 46px 46px 46px;
+    border-radius:10px;
+
+}
+.review-man{
+    float:left;
+}
+.review-women{
+    float:right;
+}
+
+
+
+.user-image{
+    position:absolute;
+    border-radius: 50%;
+    height:auto;
+}
+
+.user-man-image{
+    top:46px;
+    left:60px;
+
+}
+.user-women-image{
+    top:46px;
+    right:392px;
+}
+.review-para{
+    font-size: 16px;
+    line-height:1.9;
+    margin-top:50px;
+}
+.user-bold{
+    font-weight: bold;
+    font-size: 20px;
+    color:black;
+    margin-top:5%;
+    margin-bottom:10px;
+}
+.user-city{
+    font-size: 20px;
+}
+
+/*********************footer*******************************/
+/* - height 80px
+ - fontsize 18px / light
+ - social icon size 32px * 32px */
+.section-footer{
+    height:80px;
+    position:relative;
+    top:90px;
+    background-color: #F92524;
+    padding:29px 50px;
+}
+
+.foot-para{
+    font-size: 18px;
+    margin:0px;
+    width:50%;
+    float:left;
+    color:white;
+
+}
+.social-image{
+    float:right;
+    width:auto;
+}
+
+.social-links{
+    height:32px;
+    width:32px;
+    background-color: aliceblue;
+    border:none;
+    padding:5px;
+    text-align: center;
+    box-sizing: border-box;
+    float:left;
+    margin:0px 5px;
+}
