@@ -16,6 +16,8 @@ body{
 }
 p{
     line-height: 1.5;
+    margin:10px 0px;
+
 }
 section{
     padding:120px 50px;
@@ -31,6 +33,7 @@ section{
 .com-heading{
     font-size: 42px;
     color:#181818;
+    font-weight: bold;
 }
 
 
@@ -83,10 +86,11 @@ li{
     padding:10px 30px;
     float:right;
     margin-left:35px;
+    cursor: pointer;
 }
 
 
-/***********Section1************/
+/***********Section-1 Banner************/
 
 .section-banner{
     height:660px;
@@ -114,12 +118,12 @@ li{
     padding:165px 0px;
 }
 
-.image-girl{
+.banner-image-girl{
     position:absolute;
     top:40px;
 
 }
-.image-boy{  
+.banner-image-boy{  
     position: absolute;
     top: 220px;
     left: 860px;
@@ -139,47 +143,197 @@ li{
 }
 
 .join-today-button{
-    background-color: rgb(247, 71, 71);
+    background-color: rgb(243, 43, 43);
     border:none;
     height:58px;
     font-size: 20px;
     border-radius: 5px;
-    border:1px solid green;
     padding:10px 80px 10px 30px;
     margin-top:10px;
+    cursor: pointer;
 }
 
 .join-today-button::after{
     content:url('../images/arrow_right.png');
     display:block;
     position: absolute;
-    left:159px;
-    bottom:180px;
+    left:156px;
+    bottom:184px;
     box-sizing: border-box;
     padding:18px 10px;
-    border:1px solid green;
     width:50px;
-    height:58px;
+    height:57px;
     background-color: rgb(255, 0, 0);
     border-bottom-right-radius:5px;
     border-top-right-radius:5px; 
 }
 
 
-/**************Section 2********************/
+/**************Section-2 Our Story********************/
 
 .section-our-story{
-    background-color:wheat;
+    background-color:white;
     height:auto;
     position:relative;
     top:120px;
 }
+.wrapper-our-story{
+    overflow:auto;
+
+}
 .image-container{
-    width:424;
-    height: 587;
+    width:424px;
+    height:587px;
+    padding:55px 40px;
+    float:left;
     background-image: url('../images/advanced_bg.png');
     background-position: bottom;
     background-attachment:scroll;
     background-repeat: no-repeat;
+}
+
+.about-advance-heading{
+    color:white;
+    font-size: 25px;
+}
+
+.about-advance{
+    padding:30px;
+    background-color: rgba(202, 25, 25, 0.8);
+    text-align: center;
+    color:white;
+    font-size: 20px;
+}
+.about-read-button{
+    height:58px;
+    border-radius: 5px;
+    border:none;
+    padding:0px 65px;
+    cursor: pointer;
+    background-color: whitesmoke;
+    color:#F92524;
+    font-size: 20px;
+    margin-top:59px;
+
+}
+
+.about-us-content{
+    float:right;
+    width:60%;
+    font-size: 18px;
+}
+
+.about-para-one{
+    margin:35px 0px;
+
+}
+
+.about-sub-heading{
+    font-size:25px;
+    
+}
+.about-sub-content{
+    float:right;
+    width:80%;
+}
+
+.sub-content{
+    width: 100%;
+    overflow:auto;
+    margin:40px 0px;
+}
+.circle{
+    width:106px;
+    height:106px;
+    border-radius: 50%;
+    border:2px solid red;
+    padding:25px;
+    text-align: center;
+    margin:0px;
+    float:left;
+}
+
+/***********************Section-3 Our Classes*******************************/
+/* - background color 
+- menu font-size - 20px / medium
+- card size - 305px * 470px
+- card image should be used with <img /> tag
+- card header font-size - 25px / medium
+- card sub-header font-size - 18px / light
+- border circle 40px
+- on card hover red section elevates */
+.section-our-classes{
+    background-color:#F1F1F1;
+    height:auto;
+    position:relative;
+    top:120px;
+}
+
+.classes-heading{
+    float:left;
+    margin-bottom: 35px;
+}
+
+.filter
+{
+width:auto;
+height:auto;
+float:right;
+}
+
+.classes-list{
+    display:inline-block;
+}
+
+.filter-anchor{
+    text-decoration:none;
+    padding:10px 20px;
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.filter-anchor:hover{
+    color:red;
+    border-bottom:5px solid red;
+}
+
+.classes-para{
+    display:block;
+    clear:both;
+}
+.arrow-container{
+    width:100%;
+    clear:both;
+    overflow:auto;
+    border:1px solid red;
+}
+
+
+.card-nav-arrow{
+    float:right;
+}
+
+
+.card-container{
+    width:100%;
+    height:500px;
+   overflow:auto;
+   margin-top:50px;
+}
+
+.classes-card{
+    width:305px;
+    height:470px;
+    border:1px solid red;
+    display:block;
+    float:left;
+    border-top-left-radius:40px;
+    border-bottom-right-radius: 40px;
+}
+
+.card-image{
+    border-top-left-radius:40px;
+    border-bottom-right-radius: 40px;
 }
 
