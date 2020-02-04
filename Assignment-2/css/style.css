@@ -424,6 +424,10 @@ font-size: 18px;
 .price-head-para{
     text-align: center;
 }
+
+.our-price-heading{
+    margin-bottom:50px;
+}
 .price-card-container{
     width:100%;
     height:auto;
