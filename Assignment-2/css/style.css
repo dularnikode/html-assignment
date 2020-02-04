@@ -138,10 +138,12 @@ li{
 
 .banner-para{
     margin:25px 0px;
+    color: rgb(245, 245, 231);
 }
 
 .join-today-button{
     background-color: rgb(243, 43, 43);
+    position: relative;
     border:none;
     height:58px;
     font-size: 20px;
@@ -156,8 +158,8 @@ li{
     content:url('../images/arrow_right.png');
     display:block;
     position: absolute;
-    left:156px;
-    bottom:181px;
+    right:0px;
+    bottom:0px;
     box-sizing: border-box;
     padding:18px 10px;
     width:50px;
@@ -472,6 +474,7 @@ font-size: 18px;
     background-color: white;
     border-radius: 5px;
     margin-top:73px;
+    cursor: pointer;
 }
 
 .dumbell-normal{
@@ -558,6 +561,7 @@ form{
     border-radius:8px;
     padding:0px 50px ;
     margin:0px auto;
+    cursor: pointer;
 }
 .button-container{
     text-align: center;
