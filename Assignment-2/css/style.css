@@ -438,7 +438,7 @@ font-size: 18px;
     text-align: center;
     margin:3px 2.5%;
     padding:100px 25px;
-    border:1px solid grey;
+    border:3px solid grey;
     border-radius: 10px;
 }
 
@@ -448,7 +448,6 @@ font-size: 18px;
 .price-card-right{
     margin-right: 0px;
 }
-
 
 .price-heading{
     font-size: 25px;
@@ -470,19 +469,35 @@ font-size: 18px;
     border-radius: 5px;
     margin-top:73px;
 }
+.card-image{
+    position: relative;
+}
 
+.dumbell-normal{
+    display:block;
+    margin:0px auto;
+}
+.dumbell-red{
+    display:none;
+}
+
+.price-card:hover .dumbell-normal{
+    display:none;
+}
+.price-card:hover .dumbell-red{
+    display: block;
+    margin:0px auto;
+}
+
+.price-card:hover{
+    border-color: #F92524;
+}
 
 .price-card:hover .get-started-button{
     color:white;
     background-color: #F92524;
     border:none;
 }
-
-
-.price-card:hover .dumbell-red{
-    background-image:url('../images/dumbbells_2.png');
-}
-
 
 /****************Section 5 Contact Us **************************/
 
