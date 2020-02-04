@@ -95,6 +95,7 @@ li{
     width:100%;
     position: relative;
     top:120px;
+    padding:0px;
     background-image:url('../images/banner_bg.png');
     background-position: bottom;
     background-attachment:scroll;
@@ -426,6 +427,7 @@ font-size: 18px;
 .price-card-container{
     width:100%;
     height:auto;
+    margin-top: 80px;
 
 }
 
@@ -434,10 +436,17 @@ font-size: 18px;
     height:732px;
     display: inline-block;
     text-align: center;
-    margin:3px 10px;
+    margin:3px 2.5%;
     padding:100px 25px;
     border:1px solid grey;
     border-radius: 10px;
+}
+
+.price-card-left{
+    margin-left:0px;
+}
+.price-card-right{
+    margin-right: 0px;
 }
 
 
@@ -470,7 +479,7 @@ font-size: 18px;
 }
 
 
-.price-card:hover .dumbell-img{
+.price-card:hover .dumbell-red{
     background-image:url('../images/dumbbells_2.png');
 }
 
