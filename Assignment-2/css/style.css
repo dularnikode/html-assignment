@@ -1,153 +1,186 @@
 
 /*importing google font poppins 
 use: font-family: 'Poppins', sans-serif;
-*/
-@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+
+/* 
+Color:
+
+-Primary red color '#F92524'
+ - Dark red color '#E91B1A'
+ - Primary text color '#7A839E' 
+ - Heading color '#181818'
+ 
+ font wight: 300 light
+             400 regular
+             500 medium
+             600 bold
+ */
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700&display=swap');
 
 
 
 *{
     box-sizing: border-box;
 }
-
 body{
     font-family: 'Poppins',sans-serif;
+    font-weight: 400;
     color:#7A839E;
 }
+
 p{
     line-height: 1.5;
     margin:10px 0px;
+    font-size: 16px;
 
 }
 section{
     padding:120px 0px;
 }
 
-
-
-.common-container{
+.com-container{
     width: 1280px;
     margin:0px auto;
-    height:auto;
 }
 .com-heading{
-    font-size: 42px;
+    font-size: 40px;
     color:#181818;
-    font-weight: bold;
+    font-weight:700;
 }
 
+.com-button{
+    height:58px;
+    font-size: 20px;
+}
 
+.clear{
+    clear:both;
+}
 
 /*********Header*******************/
 header{
     width:100%;
     height:120px;
     position:fixed;
-    background-color:white;
-    padding:22px 50px;
+    top:0px;
+    background-color: white;
+    padding:23px 50px;
     z-index: 1;
 }
 
 .list-button-container{
     float:right;
-    padding:10px 0px;
 }
-
+.button-container{
+    line-height: 74px;
+    display:inline-block;
+    margin-left: 35px;
+}
 .nav-anchor{
     color:#7A839E;
     text-decoration: none;
+    line-height: 35px;
+    display: block;
+    border-bottom:2px solid transparent;
 }
-.nav-anchor:hover{
+.nav-anchor:hover,.anchor-home{
     border-bottom:2px solid #F92524;
 }
 
+.anchor-home:active{
+    border-bottom:2px solid #F92524;
+}
 
-nav{
+nav ul{
+    line-height: 74px;
+}
+
+.nav{
     display: inline-block;
     font-size: 18px;
-    margin:19px 0px;
 }
 
-li{
+.nav-li{
     display: inline-block;
-    margin:0px 5px;
-    padding-bottom:5px;
+    margin:0px 10px;
+}
+
+.button-container{
+    line-height: 74px;
+    display:inline-block;
+    margin-left: 35px;
 }
 .button-contact-us{
-    display:block;
-    height:58px;
-    font-size: 20px;
     background-color: #F92524;
     border:none;
     border-radius:5px;
     color:white;
     padding:10px 30px;
-    float:right;
-    margin-left:35px;
     cursor: pointer;
 }
 
 
 /***********Section-1 Banner************/
-
 .section-banner{
     height:660px;
-    width:100%;
-    position: relative;
-    top:120px;
     padding:0px;
     background-image:url('../images/banner_bg.png');
     background-position: bottom;
     background-attachment:scroll;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top:120px;
 }
 .banner-container{
     height:660px;
     position: relative;
-    overflow: hidden;
 }
-
 .div-left{
-    height: 660px;
-    display:block;
     width:50%;
-    float:left;
-    padding:165px 0px;
+    position: absolute;
+    top:50%;
+    transform: translatey(-50%);
+    color:white;
 }
 
 .banner-image-girl{
     position:absolute;
     top:40px;
+    right:385px;
 
 }
 .banner-image-boy{  
     position: absolute;
-    top: 220px;
-    left: 815px;
+    bottom:40px;
+    right:0px;
 }
 
 .heading-one{
-    color:#7A839E;
-    margin:20px 0px;
+    margin:0px 0px 20px 0px;
+    font-weight:300;
+    font-size: 40px;
 }
+
 .heading-two{
-    color:white;
-    font-weight: bold;
+    font-size: 50px;
+    font-weight: 700;
 }
 
 .banner-para{
     margin:25px 0px;
-    color: rgb(245, 245, 231);
 }
 
 .join-today-button{
-    background-color: rgb(243, 43, 43);
+    background-color:#F92524;
     position: relative;
     border:none;
+    color:white;
     height:58px;
     font-size: 20px;
-    color:white;
     border-radius: 5px;
     padding:10px 80px 10px 30px;
     margin-top:10px;
@@ -161,29 +194,16 @@ li{
     right:0px;
     bottom:0px;
     box-sizing: border-box;
-    padding:18px 10px;
+    height:58px;
+    padding:18px 0px;
     width:50px;
-    height:57px;
-    background-color: rgb(255, 0, 0);
+    background-color:#E91B1A;
     border-bottom-right-radius:5px;
     border-top-right-radius:5px; 
 }
 
 
 /**************Section-2 Our Story********************/
-
-.section-our-story{
-    background-color:white;
-    height:auto;
-    position:relative;
-    top:120px;
-}
-.wrapper-our-story{
-    overflow:auto;
-
-}
-
-
 .image-container{
     width:424px;
     height:587px;
@@ -196,13 +216,21 @@ li{
 }
 
 .about-advance-heading{
-    color:white;
     font-size: 25px;
+    position: relative;
+    height:35px;
 }
 
-.advanced-hr{
-    color:white;
+
+.about-advance-heading:after{
+    content: '';
+    position: absolute;
+    height:35px;
     width:80%;
+    border-bottom:2px solid white;
+    position:absolute;
+    left:0px;
+    top: 0px;
 }
 
 .about-advance{
@@ -214,6 +242,7 @@ li{
     height:100%;
     position: relative;
 }
+
 .about-read-button{
     height:58px;
     border-radius: 5px;
@@ -229,15 +258,14 @@ li{
 
 }
 .about-us-heading{
-    font-size: 42px;
     position: relative;
 }
 
 .about-us-heading::after{
-    content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+    content:'';
     height:52px;
     width:100px;
-    border-bottom:5px solid red;
+    border-bottom:4px solid red;
     position:absolute;
     left:0px;
 }
@@ -255,37 +283,36 @@ li{
 
 .about-sub-heading{
     font-size:25px;
-    
+    font-weight:500;
 }
 .about-sub-content{
     float:right;
     width:80%;
 }
 
+
 .sub-content{
-    width: 100%;
-    overflow:auto;
     margin:40px 0px;
 }
 .circle{
     width:106px;
-    height:106px;
     border-radius: 50%;
     border:2px solid red;
-    padding:25px;
     text-align: center;
     margin:0px;
     float:left;
+    line-height: 106px;
+}
+
+.circle-image{
+    vertical-align: middle;
 }
 
 /***********************Section-3 Our Classes*******************************/
-
 .section-our-classes{
     background-color:#F1F1F1;
-    height:auto;
-    position:relative;
-    top:120px;
 }
+
 
 .classes-heading{
     float:left;
@@ -306,14 +333,19 @@ float:right;
 .filter-anchor{
     text-decoration:none;
     padding:10px 20px;
-    color:black;
+    color:#181818;
     font-size: 20px;
     font-weight: bold;
+    border-bottom: 3px solid transparent ;
 }
 
-.filter-anchor:hover{
-    color:red;
-    border-bottom:3px solid red;
+.filter-anchor-last-child{
+    padding-right:0px;
+} 
+
+.filter-anchor:hover ,.anchor-all{
+    color:#F92524;
+    border-bottom:3px solid #F92524;
 }
 
 .classes-para{
@@ -360,6 +392,7 @@ float:right;
     border-bottom-right-radius: 40px;
     position: relative;
     margin:5px 2%;
+    overflow: hidden;
 }
 .card-one{
     margin-left:0px;
@@ -368,10 +401,6 @@ float:right;
     margin-right:0px;
 }
 
-.card-image{
-    border-top-left-radius:40px;
-    border-bottom-right-radius: 40px;
-}
 
 .classes-discription{
     width:305px;
@@ -379,9 +408,8 @@ float:right;
     position:absolute;
     bottom:0px;
     color:white;
-    background-color: rgb(238, 30, 30);
+    background-color:#F92524;
     padding:20px;
-    border-bottom-right-radius:40px;
     transition-property:bottom;
     transition-delay:0s;
     transition-duration:1s;
@@ -390,11 +418,10 @@ float:right;
 
 .classes-card:hover .classes-discription{
     bottom:40px;
-    border-bottom-right-radius:0px;
 }
 
 .classes-card:hover {
-    box-shadow:0px 0px 8px red;
+    box-shadow:0px 0px 8px #F92524;
 }
 
 .card-heading{
@@ -407,7 +434,8 @@ float:right;
 .card-para::before{
 content:url('../images/clock.png');
 font-size: 18px;
-
+margin-right: 10px;
+position:
 }
 
 
@@ -425,6 +453,7 @@ font-size: 18px;
 
 .price-head-para{
     text-align: center;
+
 }
 
 .our-price-heading{
@@ -457,13 +486,15 @@ font-size: 18px;
 
 .price-heading{
     font-size: 25px;
-    color:black;
+    color:#181818;
     font-weight: bold;
     margin:35px 0px;
 }
 
 .price-card-para{
     margin:20px 0px;
+    border-bottom:1px solid #7A839E;
+    padding-bottom:15px;
 }
 .get-started-button{
     height:58px;
@@ -504,7 +535,7 @@ font-size: 18px;
 }
 
 /****************Section 5 Contact Us **************************/
-
+/*
 .section-contact-us{
     background-color:white;
     height:auto;
@@ -527,6 +558,7 @@ form{
     padding-left:10px;
     width:45%;
     margin:20px 0px;
+    font-family:'Poppins', sans-serif;
 }
 
 .input-name{
@@ -563,11 +595,12 @@ form{
     margin:0px auto;
     cursor: pointer;
 }
-.button-container{
+.button-container-send{
     text-align: center;
 }
 
 /**********************section-6 Review**************************/
+/*
 .section-review{
     background-color:white;
     height:auto;
@@ -636,7 +669,7 @@ form{
 }
 
 /*********************footer*******************************/
-
+/*
 .section-footer{
     height:80px;
     position:relative;
@@ -674,3 +707,4 @@ form{
     float:left;
     margin:0px 5px;
 }
+*/

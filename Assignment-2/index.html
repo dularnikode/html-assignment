@@ -5,55 +5,58 @@
         <link rel="stylesheet" href="css/style.css">
         <title>Power |Build your body & Shape Yourself</title>
         <style>
-            /* div{
-                border:1px solid red;
-            } */
+            /* *{border:1px solid red !important}  */
         </style>
     </head>
     <body>
         <!-- Header -->
         <header>
-            <img src="images/logo.png" alt="Logo">
+            <a href="#home page"><img src="images/logo.png" alt="Logo"></a>
             <div class="list-button-container">
-                <button class="button-contact-us">Contact Us</button>
-                <nav>
-                    <ul >
-                        <li ><a class="nav-anchor" href="#home">Home</a class="nav-list"></li>
-                        <li ><a class="nav-anchor" href="#about">About Us</a></li> 
-                        <li ><a class="nav-anchor" href="#our classes">Our Classes</a></li>
-                        <li ><a class="nav-anchor" href="#our trainer">Our Trainer</a></li>
-                        <li ><a class="nav-anchor" href="#content">Our Pricing</a></li>   
+                <nav class="nav">
+                    <ul>
+                        <li class="nav-li"><a class="nav-anchor anchor-home" href="#home">Home</a class="nav-list"></li>
+                        <li class="nav-li"><a class="nav-anchor" href="#about">About Us</a></li> 
+                        <li class="nav-li"><a class="nav-anchor" href="#our classes">Our Classes</a></li >
+                        <li class="nav-li"><a class="nav-anchor" href="#our trainer">Our Trainer</a></li>
+                        <li class="nav-li"><a class="nav-anchor" href="#content">Our Pricing</a></li>   
                     </ul>
                 </nav>
+                <div class="button-container">
+                    <button class="com-button button-contact-us">Contact Us</button>
+                </div>
                 
             </div>
+            <div class="clear"></div>
         </header>
 
         <!-- Section-1 Banner-->
         <section class="section-banner">
-            <div class="common-container banner-container">
-                <div class="div-left">
-                    <h2 class="com-heading heading-one">Build Your Body &</h2>
-                    <h2 class="com-heading heading-two">Shape Yourself!</h2>
-                    <p class='banner-para'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nulla mattis,
-                        ante nec euismod auctor, diam nulla auctor arcused ultrices ligula
-                        lla auctor arcused ultrices
-                    </p>
-                    <button class=" join-today-button">Join Today</button>
+            <div class="com-container banner-container">
+                    <div class="div-left">
+                        <h2 class="heading-one">Build Your Body &</h2>
+                        <h2 class="heading-two">Shape Yourself!</h2>
+                        <p class='banner-para'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nulla mattis,
+                            ante nec euismod auctor, diam nulla auctor arcused ultrices ligula
+                            lla auctor arcused ultrices
+                        </p>
+                        <button class=" join-today-button">Join Today</button>
+    
                 </div>
+
                     <img class="banner-image-girl" src="images/banner_img_2.png" alt="banner-img">
-                    <img class="banner-image-boy" src="images/banner_img_1.png" alt="banner-img">        
+                    <img class="banner-image-boy" src="images/banner_img_1.png" alt="banner-img"> 
             </div>
         </section>
 
-        <!-- Section-2 Our Story -->
-        <section class="section-our-story">
-            <div class="common-container wrapper-our-story ">
+        <!--Section-2 Our Story-->  
+        <section>
+            <div class="com-container">
                 <!-- left Container -->
                 <div class="image-container">
                     <div class="about-advance">
                         <h2 class="about-advance-heading">Advanced Gymnastics</h2>
-                        <hr class="advanced-hr">
+                        
                         <p> Donec dapibus malesuada nisl a sollicitudin. Nulla ut libero felis. 
                             Aenean cursus rhoncus tempor. Phasellus a massa vitae purus suscipit
                              hendrerit vel a nisi.
@@ -78,21 +81,22 @@
                         </p>
 
                         <div class="sub-content">
-                        <div class="circle">
-                        <img class="about-image-boy" src="images/man_icon.png" alt="man-icon">
-                        </div>
-                        <h2 class="about-sub-content com-heading about-sub-heading">
-                            Open Door Policy
-                        </h2>
-                        <p class="about-sub-content">Maecenas tincidunt ornare iaculis. Nunc ut nibh nisi. Maecenas nec magna 
-                            ac diam tempor suscipit. In tempor, risus id pretium vestibulum, tellus 
-                            orci faucibus lorem,
-                        </p>
+                            <div class="circle">
+                            <img class="circle-image" src="images/man_icon.png" alt="man-icon">
+                            </div>
+                            <h2 class="about-sub-content com-heading about-sub-heading">
+                                Open Door Policy
+                            </h2>
+                            <p class="about-sub-content">Maecenas tincidunt ornare iaculis. Nunc ut nibh nisi. Maecenas nec magna 
+                                ac diam tempor suscipit. In tempor, risus id pretium vestibulum, tellus 
+                                orci faucibus lorem,
+                            </p>
+                            <div class="clear"></div>
                     </div>
 
                     <div class="sub-content">
                         <div class="circle">
-                        <img class="about-image-insured" src="images/insured_icon.png" alt="insured-icon">
+                        <img class="circle-image" src="images/insured_icon.png" alt="insured-icon">
                         </div>
                         <h2 class="about-sub-content com-heading about-sub-heading">
                             Fully Insured
@@ -100,31 +104,31 @@
                         <p class="about-sub-content">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; 
                             Donec justo metus, dictum sit amet eros ut, volutpat luctus tellus. 
                         </p> 
-
+                        <div class="clear"></div>
                     </div>
                 </div>
-
+            <div class="clear"></div>
             </div>
         </section>
-        
+    
 
         <!-- Secton-3 Our Classes -->
         <section class="section-our-classes">
             
-            <div class="common-container">
+            <div class="com-container">
                 <h2 class="com-heading classes-heading">Our Classes</h2>
                 <ul class="filter">
-                    <li class="classes-list"><a class="filter-anchor" href=#filter-all>All</a></li>
+                    <li class="classes-list"><a class="filter-anchor anchor-all" href=#filter-all>All</a></li>
                     <li class="classes-list"><a class="filter-anchor" href=#filter-men>Mens</a></li>
-                    <li class="classes-list"><a class="filter-anchor" href=#filter-Female>Females</a></li>
+                    <li class="classes-list"><a class="filter-anchor filter-anchor-last-child" href=#filter-Female>Womens</a></li>
                 </ul>
                 <p class="classes-para">Phasellus volutpat ligula mauris, id rutrum quam efficitur non. Curabitur 
                     dapibus scelerisque est quis ullamcorper. Proin pretium et nulla ac gravida. 
                     Proin elementum nunc id est varius auctor id sit amet neque.
                 </p>
-                <img class="card-nav-arrow" src="images/arrow_right_large.png">
-                <img class="card-nav-arrow left-nav-arrow" src="images/arrow_right_large.png">
-
+                <a class="card-nav-arrow" href="#nav-left"><img src="images/arrow_right_large.png"></a>
+                <a class="card-nav-arrow left-nav-arrow" href="#nav-right"><img src="images/arrow_right_large.png"></a>
+                <div class="clear"></div>
                 <div class="coursel">
                 <div class="card-container">
                     <div class="classes-card card-one">
@@ -136,21 +140,21 @@
 
                     </div>
                     <div class="classes-card ">
-                        <img class="card-image" src="images/class_2.png">
+                        <img src="images/class_2.png">
                         <div class="classes-discription">
                             <h2 class="card-heading">Body Building</h2>
                             <p class="card-para">Mon-Fri | 9.00 - 10.00</p>
                         </div>
                     </div>
                     <div class="classes-card ">
-                        <img class="card-image" src="images/class_3.png">
+                        <img src="images/class_3.png">
                         <div class="classes-discription">
                             <h2 class="card-heading">Body Building</h2>
                             <p class="card-para">Mon-Fri | 9.00 - 10.00</p>
                         </div>
                     </div>
                     <div class="classes-card">
-                        <img class="card-image" src="images/class_4.png">
+                        <img src="images/class_4.png">
                         <div class="classes-discription">
                             <h2 class="card-heading">Body Building</h2>
                             <p class="card-para">Mon-Fri | 9.00 - 10.00</p>
@@ -166,7 +170,7 @@
 
         <!-- Section-4 Our Pricing-->
         <section class="section-our-pricing">
-            <div class="common-container">
+            <div class="com-container">
                 <h2 class="com-heading price-head-para our-price-heading">Our Pricing</h2>
                 <p class="price-head-para">Maecenas vel eros non lorem faucibus semper.
                     Curabitur laoreet id lorem rhoncus convallis.<br>
@@ -180,7 +184,7 @@
                         </div>
                         <h4 class="price-heading">Basic Plan</h4>
                         <p class="price-card-para">Quisque vitae tempus urna, et maximus dolor malesuada mi sit amet, convallis mi</p>
-                        <hr>
+
                         <h4 class="price-heading">$340/Month</h3>
                         <button class="get-started-button">Get Started</button>
                     </div>
@@ -191,7 +195,6 @@
                         </div>
                         <h4 class="price-heading">Professional Plan</h4>
                         <p class="price-card-para">Quisque vitae tempus urna, et maximus dolor malesuada mi sit amet, convallis mi</p>
-                        <hr>
                         <h4 class="price-heading">$340/Month</h3>
                         <button class="get-started-button">Get Started</button>
                     </div>
@@ -202,7 +205,6 @@
                         </div>
                         <h4 class="price-heading">Standard Plan</h4>
                         <p class="price-card-para">Quisque vitae tempus urna, et maximus dolor malesuada mi sit amet, convallis mi</p>
-                        <hr>
                         <h4 class="price-heading">$340/Month</h3>
                         <button class="get-started-button">Get Started</button>
                     </div>
@@ -211,9 +213,9 @@
             <div>
         </section>
 
-        <!-- Section-5 Contact Us -->
+        <!--
         <section class="section-contact-us">
-            <div class="common-container">
+            <div class="com-container">
                 <h2 class="com-heading contact-us-heading">Contact Us</h2>
                 <form>
                     <input class="form-input input-name" type="text" name="name" placeholder="Name"></input>
@@ -230,9 +232,10 @@
                     <button class="button-send-message">Send Message</button>
                 </div>
         </section>
-        <!-- Section-6 Review -->
+    -->
+        <!-- Section-6 Review 
         <section class="section-review">
-            <div class="common-container review-wrapper">
+            <div class="com-container review-wrapper">
             <h2 class="com-heading review-heading">What People Say about Us?</h2>
             <p>Cras vel nulla eget nisi molestie imperdiet. Cras sit amet elit sit amet neque 
                 accumsan tristique. Nunc dapibus interdum magna,<br> sed laoreet tortor venenatis quis
@@ -268,7 +271,8 @@
 
             </div>
         </section>
-        <!-- SEction footer -->
+        -->
+        <!-- SEction footer 
         <footer class="section-footer">
             <div>
                 <p class="foot-para">&copy2019 Power Gym-Co. All Rights Reserved</p>
@@ -279,5 +283,6 @@
                 </div>
             <div>
         </footer>
+    -->
     </body>
 </html>
