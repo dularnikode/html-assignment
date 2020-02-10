@@ -535,7 +535,6 @@ form{
     width:100%;
     margin:20px 0px;
     font-family:'Poppins', sans-serif;
-    display: block;
 }
 
 .input-left{
@@ -578,58 +577,46 @@ form{
 }
 
 /**********************section-6 Review**************************/
-/*
-.section-review{
-    background-color:white;
-    height:auto;
-    position:relative;
-    top:120px;
-}
 
 .review-heading{
     margin-bottom: 50px;
 }
 
-.review-wrapper{
-    overflow:auto;
-}
 
 .review-card-container{
-    position: relative;   
+    margin-top:100px;
+    padding-top: 50px;
+    overflow: auto;
 }
-
 .review-card{
-    width: 560px;
-    height:382px;
-    margin:100px 10px 10px 10px;
     box-shadow: 0px 0px 8px grey;
     padding:100px 46px 46px 46px;
+    margin:8px;
     border-radius:10px;
-
+    position:relative;
 }
-.review-man{
+
+.review-card-parent{
+    padding-right:100px;
+    width:50%;
     float:left;
 }
-.review-women{
+
+.review-card-parent:last-child{
+    padding-right:0px;
+    padding-left: 100px;
+}
+.review-card-parent:last-child .review-card{
     float:right;
 }
 
 .user-image{
     position:absolute;
     border-radius: 50%;
-    height:auto;
-}
-
-.user-man-image{
-    top:46px;
+    top:-46px;
     left:60px;
-
 }
 
-.user-women-image{
-    top:46px;
-    right:415px;
-}
 .review-para{
     font-size: 16px;
     line-height:1.9;
@@ -638,8 +625,8 @@ form{
 .user-bold{
     font-weight: bold;
     font-size: 20px;
-    color:black;
-    margin-top:5%;
+    color:#181818;
+    margin-top:20px;
     margin-bottom:10px;
 }
 .user-city{
@@ -647,11 +634,8 @@ form{
 }
 
 /*********************footer*******************************/
-/*
 .section-footer{
     height:80px;
-    position:relative;
-    top:90px;
     background-color: #F92524;
     padding:29px 50px;
 }
@@ -666,23 +650,18 @@ form{
 }
 .social-image-container{
     float:right;
-    width:auto;
-    font-size: 0px;
-}
 
+}
 .social-image{
-   padding:3px;
-
-}
+    vertical-align: middle;
+} 
 
 .social-links{
-    height:32px;
+    line-height:32px;
     width:32px;
-    background-color: aliceblue;
+    background-color:white;
     border:0px;
-    padding:5px;
     text-align: center;
     float:left;
     margin:0px 5px;
 }
-*/
