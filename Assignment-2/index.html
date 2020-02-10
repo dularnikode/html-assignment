@@ -11,7 +11,7 @@
     <body>
         <!-- Header -->
         <header>
-            <a href="#home page"><img src="images/logo.png" alt="Logo"></a>
+            <a class="header-logo-href" href="#home page"><img src="images/logo.png" alt="Logo"></a>
             <div class="list-button-container">
                 <nav class="nav">
                     <ul>
@@ -68,42 +68,46 @@
 
                 <!-- Right Container -->
                 <div class="about-us-content">
-                        <h2 class="com-heading about-us-heading" >Our Story</h2>
-                        <p class="about-para-one">Sed purus augue, consectetur ac sollicitudin ac, volutpat nec lorem. Cras
+                    <h2 class="com-heading about-us-heading" >Our Story</h2>
+                    <p class="about-para-one">Sed purus augue, consectetur ac sollicitudin ac, volutpat nec lorem. Cras
                             vel porta augue, ac pretium leo. Curabitur tincidunt, felis sed auctor 
                             posuere, lorem augue gravida eros, ac ullamcorper leo quam eget eros.
                             Quisque pulvinar mi in molestie scelerisque. Proin mattis molestie 
                             massa a maximus.
-                        </p>
-                        <p>Praesent eu placerat ipsum, in sollicitudin justo. Pellentesque mollis, 
+                    </p>
+                    <p>Praesent eu placerat ipsum, in sollicitudin justo. Pellentesque mollis, 
                             nunc ac maximus aliquet, sapien justo vestibulum nisi, laoreet maximus 
                             nisi lacus quis lorem. Cras vel maximus leo
-                        </p>
+                    </p>
 
-                        <div class="sub-content">
-                            <div class="circle">
+                    <div class="sub-content">
+                        <div class="circle">
                             <img class="circle-image" src="images/man_icon.png" alt="man-icon">
-                            </div>
-                            <h2 class="about-sub-content com-heading about-sub-heading">
+                        </div>
+                        <div class="about-sub-content">
+                            <h2 class=" com-heading about-sub-heading">
                                 Open Door Policy
                             </h2>
-                            <p class="about-sub-content">Maecenas tincidunt ornare iaculis. Nunc ut nibh nisi. Maecenas nec magna 
+                            <p>Maecenas tincidunt ornare iaculis. Nunc ut nibh nisi. Maecenas nec magna 
                                 ac diam tempor suscipit. In tempor, risus id pretium vestibulum, tellus 
                                 orci faucibus lorem,
                             </p>
-                            <div class="clear"></div>
+                        </div>
+                        <div class="clear"></div>
                     </div>
 
                     <div class="sub-content">
                         <div class="circle">
                         <img class="circle-image" src="images/insured_icon.png" alt="insured-icon">
                         </div>
-                        <h2 class="about-sub-content com-heading about-sub-heading">
-                            Fully Insured
-                        </h2>
-                        <p class="about-sub-content">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; 
-                            Donec justo metus, dictum sit amet eros ut, volutpat luctus tellus. 
-                        </p> 
+                        <div class="about-sub-content">
+                            <h2 class="com-heading about-sub-heading">
+                                Fully Insured
+                            </h2>
+                            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; 
+                                Donec justo metus, dictum sit amet eros ut, volutpat luctus tellus. 
+                            </p> 
+                        </div>
                         <div class="clear"></div>
                     </div>
                 </div>
@@ -120,7 +124,7 @@
                 <ul class="filter">
                     <li class="classes-list"><a class="filter-anchor anchor-all" href=#filter-all>All</a></li>
                     <li class="classes-list"><a class="filter-anchor" href=#filter-men>Mens</a></li>
-                    <li class="classes-list"><a class="filter-anchor filter-anchor-last-child" href=#filter-Female>Womens</a></li>
+                    <li class="classes-list"><a class="filter-anchor" href=#filter-Female>Womens</a></li>
                 </ul>
                 <p class="classes-para">Phasellus volutpat ligula mauris, id rutrum quam efficitur non. Curabitur 
                     dapibus scelerisque est quis ullamcorper. Proin pretium et nulla ac gravida. 
@@ -129,9 +133,10 @@
                 <a class="card-nav-arrow" href="#nav-left"><img src="images/arrow_right_large.png"></a>
                 <a class="card-nav-arrow left-nav-arrow" href="#nav-right"><img src="images/arrow_right_large.png"></a>
                 <div class="clear"></div>
+
                 <div class="coursel">
                 <div class="card-container">
-                    <div class="classes-card card-one">
+                    <div class="classes-card">
                         <img class="card-image" src="images/class_1.png">
                         <div class="classes-discription">
                             <h2 class="card-heading">Body Building</h2>
@@ -177,62 +182,76 @@
                     Donec vestibulum tristique tellus, eu tristique mauris scelerisque id.
                 </p>
                 <div class="price-card-container">
-                    <div class="price-card price-card-left">
-                        <div>
-                        <img class="dumbell-normal" src="images/dumbbells_1.png" alt="dumbells">
-                        <img class="dumbell-red" src="images/dumbbells_2.png" alt="dumbells">
-                        </div>
-                        <h4 class="price-heading">Basic Plan</h4>
-                        <p class="price-card-para">Quisque vitae tempus urna, et maximus dolor malesuada mi sit amet, convallis mi</p>
 
-                        <h4 class="price-heading">$340/Month</h3>
-                        <button class="get-started-button">Get Started</button>
-                    </div>
-                    <div class="price-card">
-                        <div>
+                    <div class="price-card-parent">
+                        <div class="price-card">
+                            <div>
                             <img class="dumbell-normal" src="images/dumbbells_1.png" alt="dumbells">
                             <img class="dumbell-red" src="images/dumbbells_2.png" alt="dumbells">
+                            </div>
+                            <h4 class="com-heading price-heading">Basic Plan</h4>
+                            <p class="price-card-para">Quisque vitae tempus urna, et maximus dolor malesuada mi sit amet, convallis mi</p>
+
+                            <h4 class="com-heading price-heading">$340/Month</h3>
+                            <button class="com-button get-started-button">Get Started</button>
                         </div>
-                        <h4 class="price-heading">Professional Plan</h4>
-                        <p class="price-card-para">Quisque vitae tempus urna, et maximus dolor malesuada mi sit amet, convallis mi</p>
-                        <h4 class="price-heading">$340/Month</h3>
-                        <button class="get-started-button">Get Started</button>
-                    </div>
-                    <div class="price-card price-card-right">
-                        <div>
-                            <img class="dumbell-normal" src="images/dumbbells_1.png" alt="dumbells">
-                            <img class="dumbell-red" src="images/dumbbells_2.png" alt="dumbells-red">
-                        </div>
-                        <h4 class="price-heading">Standard Plan</h4>
-                        <p class="price-card-para">Quisque vitae tempus urna, et maximus dolor malesuada mi sit amet, convallis mi</p>
-                        <h4 class="price-heading">$340/Month</h3>
-                        <button class="get-started-button">Get Started</button>
                     </div>
 
+                    <div class="price-card-parent">
+                        <div class="price-card">
+                            <div>
+                                <img class="dumbell-normal" src="images/dumbbells_1.png" alt="dumbells">
+                                <img class="dumbell-red" src="images/dumbbells_2.png" alt="dumbells">
+                            </div>
+                            <h4 class="com-heading price-heading">Professional Plan</h4>
+                            <p class="price-card-para">Quisque vitae tempus urna, et maximus dolor malesuada mi sit amet, convallis mi</p>
+                            <h4 class="com-heading price-heading">$340/Month</h3>
+                            <button class="com-button get-started-button">Get Started</button>
+                        </div>
+                    </div>
+
+                    <div class="price-card-parent">
+                        <div class="price-card">
+                            <div>
+                                <img class="dumbell-normal" src="images/dumbbells_1.png" alt="dumbells">
+                                <img class="dumbell-red" src="images/dumbbells_2.png" alt="dumbells-red">
+                            </div>
+                            <h4 class="com-heading price-heading">Standard Plan</h4>
+                            <p class="price-card-para">Quisque vitae tempus urna, et maximus dolor malesuada mi sit amet, convallis mi</p>
+                            <h4 class="com-heading price-heading">$340/Month</h3>
+                            <button class="com-button get-started-button">Get Started</button>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
                 </div>
             <div>
         </section>
 
-        <!--
-        <section class="section-contact-us">
+        <!--Section Contact us-->
+        <section>
             <div class="com-container">
                 <h2 class="com-heading contact-us-heading">Contact Us</h2>
                 <form>
-                    <input class="form-input input-name" type="text" name="name" placeholder="Name"></input>
-                    <input class="form-input input-email" type="email" name="email" placeholder="E-mail"></input>
-                    <input class="form-input input-phone" type="tel" name="phone" placeholder="Phone#"></input>
-                    <select class="form-input input-budget">
-                        <option value="Budget">Budget</option>
-                        <option value="prem">Premium</option>
-                        <option value="lux">Luxury</option>
-                    </select>
-                      <textarea class="form-input input-message" name="message" placeholder="Message"></textarea>
+                    <div class="input-left">
+                        <input class="form-input" type="text" name="name" placeholder="Name"></input>
+                        <input class="form-input" type="email" name="email" placeholder="E-mail"></input>
+                    </div>
+                    <div class="input-right">
+                        <input class="form-input" type="tel" name="phone" placeholder="Phone#"></input>
+                        <select class="form-input">
+                            <option value="Budget">Budget</option>
+                            <option value="prem">Premium</option>
+                            <option value="lux">Luxury</option>
+                        </select>
+                    </div>
+                    <div class="clear"></div>
+                    <textarea class="form-input input-message" name="message" placeholder="Message"></textarea>
                 </form>
                 <div class="button-container">
                     <button class="button-send-message">Send Message</button>
                 </div>
         </section>
-    -->
+
         <!-- Section-6 Review 
         <section class="section-review">
             <div class="com-container review-wrapper">
