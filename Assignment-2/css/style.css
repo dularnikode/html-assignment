@@ -597,14 +597,14 @@ form{
 }
 
 .review-card-parent{
-    padding-right:100px;
+    padding-right:50px;
     width:50%;
     float:left;
 }
 
 .review-card-parent:last-child{
     padding-right:0px;
-    padding-left: 100px;
+    padding-left: 50px;
 }
 .review-card-parent:last-child .review-card{
     float:right;
@@ -646,6 +646,7 @@ form{
     width:50%;
     float:left;
     color:white;
+    font-weight: 300;
 
 }
 .social-image-container{
